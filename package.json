@@ -1,13 +1,20 @@
 {
-  "name": "CS_399_ecosite",
+  "name": "cs-399-ecosite",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "CS 399 Ecosite Project",
+  "private": true,
   "scripts": {
+    "dev": "pnpm --filter my-app dev",
+    "build": "pnpm --filter my-app build",
+    "start": "pnpm --filter my-app start",
+    "lint": "pnpm --filter my-app lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.20.0"
+  "packageManager": "pnpm@10.20.0",
+  "workspaces": [
+    "my-app"
+  ]
 }
