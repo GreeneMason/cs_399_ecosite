@@ -13,8 +13,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.20.0",
-  "workspaces": [
-    "my-app"
-  ]
+  "packageManager": "pnpm@10.20.0"
 }
