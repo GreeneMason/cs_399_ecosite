@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "buildCommand": "pnpm --filter my-app build",
+  "outputDirectory": "my-app/.next",
+  "framework": "nextjs",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/my-app/$1"
+    }
+  ]
+}

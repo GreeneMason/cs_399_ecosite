@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import Link from "next/link";
+import { ModeToggle } from "@/components/mode-toggle";
 
 export default function Home() {
   return (
@@ -11,9 +13,12 @@ export default function Home() {
           <div className="text-2xl font-bold bg-gradient-to-r from-[#ff6d00] to-[#9d4edd] bg-clip-text text-transparent">
             Mason Greene
           </div>
-          <button className="bg-gradient-to-r from-[#ff6d00] to-[#5a189a] hover:from-[#ff8500] hover:to-[#240046] text-white font-semibold px-6 py-2 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl">
-            Contact Me
-          </button>
+          <div className="flex items-center gap-4">
+            <Link href="/contact" className="bg-gradient-to-r from-[#ff6d00] to-[#5a189a] hover:from-[#ff8500] hover:to-[#240046] text-white font-semibold px-6 py-2 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl">
+              Contact Me
+            </Link>
+            <ModeToggle />
+          </div>
         </div>
       </header>
 
@@ -31,23 +36,32 @@ export default function Home() {
             </span>
           </h2>
           <p className="text-xl md:text-2xl lg:text-3xl text-slate-600 dark:text-slate-300 mb-12 max-w-4xl mx-auto">
-            CS Student building innovative web solutions with modern technologies
+            Computer Science undergraduate with strong skills in Java, data structures, databases, and software development.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
-            <button className="bg-gradient-to-r from-[#ff6d00] to-[#5a189a] hover:from-[#ff8500] hover:to-[#240046] text-white font-semibold text-xl px-10 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl">
+            <a 
+              href="https://github.com/GreeneMason"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-[#ff6d00] to-[#5a189a] hover:from-[#ff8500] hover:to-[#240046] text-white font-semibold text-xl px-10 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
+            >
               View My Work
-            </button>
-            <button className="border-2 border-[#5a189a] text-[#5a189a] hover:bg-[#5a189a] hover:text-white font-semibold text-xl px-10 py-4 rounded-lg transition-all duration-300">
+            </a>
+            <a 
+              href="/resume.pdf"
+              download="Mason_Greene_Resume.pdf"
+              className="border-2 border-[#5a189a] text-[#5a189a] hover:bg-[#5a189a] hover:text-white font-semibold text-xl px-10 py-4 rounded-lg transition-all duration-300"
+            >
               Download Resume
-            </button>
+            </a>
           </div>
           <div className="flex flex-wrap gap-3 justify-center">
-            <span className="bg-[#ff6d00] text-white px-4 py-2 rounded-full text-base font-medium">React</span>
-            <span className="bg-[#ff8500] text-white px-4 py-2 rounded-full text-base font-medium">Next.js</span>
-            <span className="bg-[#ff9e00] text-white px-4 py-2 rounded-full text-base font-medium">TypeScript</span>
-            <span className="bg-[#5a189a] text-white px-4 py-2 rounded-full text-base font-medium">Python</span>
-            <span className="bg-[#9d4edd] text-white px-4 py-2 rounded-full text-base font-medium">Node.js</span>
-            <span className="bg-[#240046] text-white px-4 py-2 rounded-full text-base font-medium">MongoDB</span>
+            <span className="bg-[#ff6d00] text-white px-4 py-2 rounded-full text-base font-medium">Java</span>
+            <span className="bg-[#ff8500] text-white px-4 py-2 rounded-full text-base font-medium">Python</span>
+            <span className="bg-[#ff9e00] text-white px-4 py-2 rounded-full text-base font-medium">JavaScript</span>
+            <span className="bg-[#5a189a] text-white px-4 py-2 rounded-full text-base font-medium">SQL</span>
+            <span className="bg-[#9d4edd] text-white px-4 py-2 rounded-full text-base font-medium">AWS</span>
+            <span className="bg-[#240046] text-white px-4 py-2 rounded-full text-base font-medium">Next.js</span>
           </div>
         </div>
       </section>
@@ -60,29 +74,27 @@ export default function Home() {
             <div className="grid lg:grid-cols-2 gap-16 items-center">
               <div className="space-y-8">
                 <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-300 leading-relaxed">
-                  I'm a Computer Science student passionate about creating meaningful digital experiences. 
-                  With a focus on full-stack development, I enjoy turning complex problems into simple, 
-                  beautiful solutions.
+                  I'm a Computer Science undergraduate with strong skills in Java, data structures, databases, and software development. 
+                  Experienced in building efficient, user-centered applications and collaborating in Agile environments.
                 </p>
                 <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-300 leading-relaxed">
-                  Currently studying at university while building projects that make a difference. 
-                  I'm always eager to learn new technologies and collaborate on exciting projects.
+                  Currently seeking a software development internship to apply strong problem-solving and coding skills in a fast-paced tech environment.
                 </p>
                 <div className="grid grid-cols-2 gap-8 pt-8">
                   <div>
-                    <h3 className="text-2xl font-bold text-[#5a189a] mb-4">Frontend</h3>
+                    <h3 className="text-2xl font-bold text-[#5a189a] mb-4">Languages</h3>
                     <ul className="space-y-2 text-lg text-slate-600 dark:text-slate-300">
-                      <li>React & Next.js</li>
-                      <li>TypeScript</li>
-                      <li>Tailwind CSS</li>
+                      <li>Java & Python</li>
+                      <li>JavaScript & HTML/CSS</li>
+                      <li>SQL</li>
                     </ul>
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-[#5a189a] mb-4">Backend</h3>
+                    <h3 className="text-2xl font-bold text-[#5a189a] mb-4">Tools & Practices</h3>
                     <ul className="space-y-2 text-lg text-slate-600 dark:text-slate-300">
-                      <li>Node.js & Python</li>
-                      <li>MongoDB & SQL</li>
-                      <li>REST APIs</li>
+                      <li>GitHub & Git Bash</li>
+                      <li>AWS & Next.js</li>
+                      <li>Agile & JUnit</li>
                     </ul>
                   </div>
                 </div>
@@ -105,14 +117,15 @@ export default function Home() {
             <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
               <div className="bg-white dark:bg-slate-800 rounded-2xl border border-[#ff6d00]/20 shadow-xl hover:shadow-2xl transition-all duration-300 hover:border-[#ff8500]/40 hover:transform hover:scale-105">
                 <div className="p-8">
-                  <h3 className="text-2xl font-semibold mb-4 text-[#5a189a]">EcoSite Portfolio</h3>
+                  <h3 className="text-2xl font-semibold mb-4 text-[#5a189a]">ML UFC Predictor</h3>
                   <p className="text-slate-600 dark:text-slate-300 mb-6 text-lg">
-                    A modern portfolio website built with Next.js and shadcn/ui featuring responsive design and custom animations.
+                    Used Python to create databases from 28 years of UFC events. Trained and evaluated multiple algorithms to identify the best-performing model.
                   </p>
                   <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="bg-[#ff6d00] text-white px-3 py-1 rounded-full text-sm">Next.js</span>
-                    <span className="bg-[#ff8500] text-white px-3 py-1 rounded-full text-sm">TypeScript</span>
-                    <span className="bg-[#ff9e00] text-white px-3 py-1 rounded-full text-sm">Tailwind</span>
+                    <span className="bg-[#ff6d00] text-white px-3 py-1 rounded-full text-sm">Python</span>
+                    <span className="bg-[#ff8500] text-white px-3 py-1 rounded-full text-sm">XGBoost</span>
+                    <span className="bg-[#ff9e00] text-white px-3 py-1 rounded-full text-sm">Pandas</span>
+                    <span className="bg-[#5a189a] text-white px-3 py-1 rounded-full text-sm">SQLite</span>
                   </div>
                   <button className="w-full border-2 border-[#5a189a] text-[#5a189a] hover:bg-[#5a189a] hover:text-white py-3 rounded-lg transition-all duration-300 font-semibold">
                     View Project
@@ -122,14 +135,14 @@ export default function Home() {
 
               <div className="bg-white dark:bg-slate-800 rounded-2xl border border-[#ff6d00]/20 shadow-xl hover:shadow-2xl transition-all duration-300 hover:border-[#ff8500]/40 hover:transform hover:scale-105">
                 <div className="p-8">
-                  <h3 className="text-2xl font-semibold mb-4 text-[#5a189a]">Task Manager App</h3>
+                  <h3 className="text-2xl font-semibold mb-4 text-[#5a189a]">Solar Investment Calculator</h3>
                   <p className="text-slate-600 dark:text-slate-300 mb-6 text-lg">
-                    Full-stack productivity app with real-time updates, user authentication, and collaborative features.
+                    Terminal app to calculate ROI for solar panel installs using AI-generated irradiance data for 150+ WA zipcodes.
                   </p>
                   <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="bg-[#ff8500] text-white px-3 py-1 rounded-full text-sm">React</span>
-                    <span className="bg-[#5a189a] text-white px-3 py-1 rounded-full text-sm">Node.js</span>
-                    <span className="bg-[#9d4edd] text-white px-3 py-1 rounded-full text-sm">MongoDB</span>
+                    <span className="bg-[#ff8500] text-white px-3 py-1 rounded-full text-sm">Java</span>
+                    <span className="bg-[#5a189a] text-white px-3 py-1 rounded-full text-sm">GitHub</span>
+                    <span className="bg-[#9d4edd] text-white px-3 py-1 rounded-full text-sm">AI Data</span>
                   </div>
                   <button className="w-full border-2 border-[#5a189a] text-[#5a189a] hover:bg-[#5a189a] hover:text-white py-3 rounded-lg transition-all duration-300 font-semibold">
                     View Project
@@ -139,14 +152,14 @@ export default function Home() {
 
               <div className="bg-white dark:bg-slate-800 rounded-2xl border border-[#ff6d00]/20 shadow-xl hover:shadow-2xl transition-all duration-300 hover:border-[#ff8500]/40 hover:transform hover:scale-105">
                 <div className="p-8">
-                  <h3 className="text-2xl font-semibold mb-4 text-[#5a189a]">Weather Dashboard</h3>
+                  <h3 className="text-2xl font-semibold mb-4 text-[#5a189a]">Seed Suggestor</h3>
                   <p className="text-slate-600 dark:text-slate-300 mb-6 text-lg">
-                    Interactive weather app with beautiful visualizations, forecasts, and location-based services.
+                    Planting scheduler using HashMaps and ArrayLists with O(1) search capability. Optimized for Washington climate.
                   </p>
                   <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="bg-[#ff9e00] text-white px-3 py-1 rounded-full text-sm">JavaScript</span>
-                    <span className="bg-[#5a189a] text-white px-3 py-1 rounded-full text-sm">API Integration</span>
-                    <span className="bg-[#240046] text-white px-3 py-1 rounded-full text-sm">Chart.js</span>
+                    <span className="bg-[#ff9e00] text-white px-3 py-1 rounded-full text-sm">Java</span>
+                    <span className="bg-[#5a189a] text-white px-3 py-1 rounded-full text-sm">Data Structures</span>
+                    <span className="bg-[#240046] text-white px-3 py-1 rounded-full text-sm">Algorithms</span>
                   </div>
                   <button className="w-full border-2 border-[#5a189a] text-[#5a189a] hover:bg-[#5a189a] hover:text-white py-3 rounded-lg transition-all duration-300 font-semibold">
                     View Project
