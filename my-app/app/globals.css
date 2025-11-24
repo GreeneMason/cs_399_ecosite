@@ -41,9 +41,19 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+  --color-black-custom: var(--black);
+  --color-jade-green: var(--jade-green);
+  --color-emerald: var(--emerald);
+  --color-iron-grey: var(--iron-grey);
+  --color-white-smoke: var(--white-smoke);
 }
 
 :root {
+  --black: #010101;
+  --jade-green: #01c953;
+  --emerald: #69df9b;
+  --iron-grey: #484948;
+  --white-smoke: #f4f5f4;
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.141 0.005 285.823);
