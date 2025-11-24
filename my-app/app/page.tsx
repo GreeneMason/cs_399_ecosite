@@ -127,9 +127,9 @@ export default function Home() {
                     <span className="bg-[#69df9b] text-white px-3 py-1 rounded-full text-sm">Pandas</span>
                     <span className="bg-[#484948] text-white px-3 py-1 rounded-full text-sm">SQLite</span>
                   </div>
-                  <button className="w-full border-2 border-[#01c953] text-[#01c953] hover:bg-[#01c953] hover:text-white py-3 rounded-lg transition-all duration-300 font-semibold">
+                  <a href="https://github.com/GreeneMason/cs_330" target="_blank" rel="noopener noreferrer" className="block w-full text-center border-2 border-[#01c953] text-[#01c953] hover:bg-[#01c953] hover:text-white py-3 rounded-lg transition-all duration-300 font-semibold">
                     View Project
-                  </button>
+                  </a>
                 </div>
               </div>
 
@@ -144,9 +144,9 @@ export default function Home() {
                     <span className="bg-[#484948] text-white px-3 py-1 rounded-full text-sm">GitHub</span>
                     <span className="bg-[#69df9b] text-white px-3 py-1 rounded-full text-sm">AI Data</span>
                   </div>
-                  <button className="w-full border-2 border-[#01c953] text-[#01c953] hover:bg-[#01c953] hover:text-white py-3 rounded-lg transition-all duration-300 font-semibold">
+                  <a href="https://github.com/GreeneMason/finals-SolarCalc" target="_blank" rel="noopener noreferrer" className="block w-full text-center border-2 border-[#01c953] text-[#01c953] hover:bg-[#01c953] hover:text-white py-3 rounded-lg transition-all duration-300 font-semibold">
                     View Project
-                  </button>
+                  </a>
                 </div>
               </div>
 
