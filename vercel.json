@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "buildCommand": "pnpm --filter my-app build",
-  "outputDirectory": "my-app/.next",
-  "framework": "nextjs",
-  "rewrites": [
+  "builds": [
     {
-      "source": "/(.*)",
-      "destination": "/my-app/$1"
+      "src": "my-app/package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/my-app/$1"
     }
   ]
 }
