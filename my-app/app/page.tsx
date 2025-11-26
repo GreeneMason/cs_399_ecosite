@@ -162,7 +162,9 @@ export default function Home() {
                     <span className="bg-[#010101] text-white px-3 py-1 rounded-full text-sm">Algorithms</span>
                   </div>
                   <a 
-                    href="#"
+                    href="https://github.com/cs-olympic/finalcs2-GreeneMason"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="block w-full text-center border-2 border-[#01c953] text-[#01c953] hover:bg-[#01c953] hover:text-white py-3 rounded-lg transition-all duration-300 font-semibold"
                   >
                     View Project
