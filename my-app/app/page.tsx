@@ -161,9 +161,12 @@ export default function Home() {
                     <span className="bg-[#484948] text-white px-3 py-1 rounded-full text-sm">Data Structures</span>
                     <span className="bg-[#010101] text-white px-3 py-1 rounded-full text-sm">Algorithms</span>
                   </div>
-                  <button className="w-full border-2 border-[#01c953] text-[#01c953] hover:bg-[#01c953] hover:text-white py-3 rounded-lg transition-all duration-300 font-semibold">
+                  <a 
+                    href="#"
+                    className="block w-full text-center border-2 border-[#01c953] text-[#01c953] hover:bg-[#01c953] hover:text-white py-3 rounded-lg transition-all duration-300 font-semibold"
+                  >
                     View Project
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
