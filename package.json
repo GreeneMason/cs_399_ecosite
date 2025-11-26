@@ -1,17 +1,34 @@
 {
-  "name": "cs-399-ecosite",
-  "version": "1.0.0",
-  "description": "CS 399 Ecosite Project",
+  "name": "my-app",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "pnpm --filter my-app dev",
-    "build": "pnpm --filter my-app build",
-    "start": "pnpm --filter my-app start",
-    "lint": "pnpm --filter my-app lint",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.20.0"
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.2.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "convex": "^1.28.0",
+    "lucide-react": "^0.548.0",
+    "next": "16.0.1",
+    "next-themes": "^0.4.6",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.1",
+    "tailwindcss": "^4",
+    "tw-animate-css": "^1.4.0",
+    "typescript": "^5"
+  }
 }
