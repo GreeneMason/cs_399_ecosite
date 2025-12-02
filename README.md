@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mason Greene | Full-Stack Developer
 
-## Getting Started
+**Computer Science Undergraduate | AI/ML Enthusiast | Building Ethical & Sustainable Technology**
 
-First, run the development server:
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-01c953?style=for-the-badge)](https://your-site.vercel.app)
+[![Email](https://img.shields.io/badge/Email-masonmgreene@gmail.com-01c953?style=for-the-badge&logo=gmail)](mailto:masonmgreene@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-GreeneMason-01c953?style=for-the-badge&logo=github)](https://github.com/GreeneMason)
+
+---
+
+## 👨‍💻 About This Portfolio
+
+A modern, responsive portfolio website showcasing my journey as a Computer Science student and developer. Built with cutting-edge technologies and optimized for performance.
+
+### ✨ Featured Projects
+
+- **ML UFC Predictor** - Machine learning model using 28 years of UFC data with XGBoost
+- **Solar Investment Calculator** - ROI calculator for solar panel installations across 150+ WA zipcodes
+- **Seed Suggestor** - Intelligent planting scheduler optimized for Washington climate
+
+### 🛠️ Tech Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Styling:** Tailwind CSS v4
+- **UI Components:** Radix UI
+- **Animations:** Custom CSS animations
+- **Deployment:** Vercel
+- **Analytics:** Vercel Analytics & Speed Insights
+- **Theme:** Dark/Light mode with next-themes
+
+### 🎨 Design Features
+
+- Responsive design (mobile-first)
+- Smooth animations and transitions
+- Accessible UI components
+- Optimized for Core Web Vitals
+- Green and black color palette (#01c953, #69df9b)
+
+---
+
+## 🚀 Quick Start
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+# Install dependencies
+pnpm install
+
+# Run development server
 pnpm dev
-# or
-bun dev
+
+# Build for production
+pnpm build
+
+# Start production server
+pnpm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📫 Let's Connect
 
-## Learn More
+I'm always interested in new opportunities and exciting projects. Feel free to reach out!
 
-To learn more about Next.js, take a look at the following resources:
+**Email:** [masonmgreene@gmail.com](mailto:masonmgreene@gmail.com)  
+**GitHub:** [@GreeneMason](https://github.com/GreeneMason)  
+**Portfolio:** [Live Site](https://your-site.vercel.app)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<div align="center">
 
-## Deploy on Vercel
+**Built with ❤️ and lots of ☕**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+*Currently seeking software development internships*
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+</div>

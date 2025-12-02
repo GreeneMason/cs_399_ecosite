@@ -1,0 +1,9 @@
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Disallow crawling of API routes and admin paths
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://your-site.vercel.app/sitemap.xml
