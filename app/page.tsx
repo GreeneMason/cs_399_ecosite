@@ -55,13 +55,13 @@ export default function Home() {
               Download Resume
             </a>
           </div>
-          <div className="flex flex-wrap gap-3 justify-center">
-            <span className="bg-[#01c953] text-white px-4 py-2 rounded-full text-base font-medium">Java</span>
-            <span className="bg-[#69df9b] text-white px-4 py-2 rounded-full text-base font-medium">Python</span>
-            <span className="bg-[#69df9b] text-white px-4 py-2 rounded-full text-base font-medium">JavaScript</span>
-            <span className="bg-[#484948] text-white px-4 py-2 rounded-full text-base font-medium">SQL</span>
-            <span className="bg-[#69df9b] text-white px-4 py-2 rounded-full text-base font-medium">AWS</span>
-            <span className="bg-[#010101] text-white px-4 py-2 rounded-full text-base font-medium">Next.js</span>
+          <div className="flex flex-wrap justify-center items-center gap-6 mt-8">
+            <img src="/brand_icons/java.webp" alt="Java" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
+            <img src="/brand_icons/279-2791029_python-icon-python-logo.png" alt="Python" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
+            <img src="/brand_icons/javascript-logo-javascript-icon-transparent-free-png.webp" alt="JavaScript" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
+            <img src="/brand_icons/sql-database-icon-logo-design-ui-or-ux-app-png.png" alt="SQL" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
+            <img src="/brand_icons/Amazon_Web_Services_Logo.svg.png" alt="AWS" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
+            <img src="/brand_icons/next.js-logo_brandlogos.net_zeccw.png" alt="Next.js" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
           </div>
         </div>
       </section>
@@ -80,17 +80,6 @@ export default function Home() {
                 <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-300 leading-relaxed">
                   Currently seeking a software development internship to apply strong problem-solving and coding skills in a fast-paced tech environment.
                 </p>
-                <div className="pt-8">
-                  <h3 className="text-2xl font-bold text-[#01c953] mb-6 text-center">Tech Stack</h3>
-                  <div className="flex flex-wrap justify-center items-center gap-6">
-                    <img src="/brand_icons/java.webp" alt="Java" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
-                    <img src="/brand_icons/279-2791029_python-icon-python-logo.png" alt="Python" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
-                    <img src="/brand_icons/javascript-logo-javascript-icon-transparent-free-png.webp" alt="JavaScript" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
-                    <img src="/brand_icons/sql-database-icon-logo-design-ui-or-ux-app-png.png" alt="SQL" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
-                    <img src="/brand_icons/Amazon_Web_Services_Logo.svg.png" alt="AWS" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
-                    <img src="/brand_icons/next.js-logo_brandlogos.net_zeccw.png" alt="Next.js" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
-                  </div>
-                </div>
               </div>
               <div className="flex justify-center">
                 <div className="w-96 h-96 bg-gradient-to-br from-[#01c953] via-[#34d376] to-[#69df9b] rounded-2xl flex items-center justify-center shadow-2xl transform hover:scale-105 transition-transform duration-300">
