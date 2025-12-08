@@ -26,12 +26,12 @@ export default function Home() {
       <section className="min-h-screen flex items-center justify-center px-4 pt-20">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tight mb-8">
-            <span className="bg-gradient-to-r from-[#01c953] via-[#34d376] to-[#69df9b] bg-clip-text text-transparent drop-shadow-[3px_3px_0px_rgba(0,0,0,0.3)] dark:drop-shadow-none">
+            <span className="bg-gradient-to-r from-[#01c953] via-[#34d376] to-[#69df9b] bg-clip-text text-transparent [-webkit-text-stroke:1px_#000] dark:[-webkit-text-stroke:1px_#fff] [text-stroke:1px_#000] dark:[text-stroke:1px_#fff]">
               Full-Stack
             </span>
           </h1>
           <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-8">
-            <span className="bg-gradient-to-r from-[#01c953] to-[#69df9b] bg-clip-text text-transparent drop-shadow-[2px_2px_0px_rgba(0,0,0,0.3)] dark:drop-shadow-none">
+            <span className="bg-gradient-to-r from-[#01c953] to-[#69df9b] bg-clip-text text-transparent [-webkit-text-stroke:1px_#000] dark:[-webkit-text-stroke:1px_#fff] [text-stroke:1px_#000] dark:[text-stroke:1px_#fff]">
               Developer
             </span>
           </h2>
@@ -80,22 +80,15 @@ export default function Home() {
                 <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-300 leading-relaxed">
                   Currently seeking a software development internship to apply strong problem-solving and coding skills in a fast-paced tech environment.
                 </p>
-                <div className="grid grid-cols-2 gap-8 pt-8">
-                  <div>
-                    <h3 className="text-2xl font-bold text-[#01c953] mb-4">Languages</h3>
-                    <ul className="space-y-2 text-lg text-slate-600 dark:text-slate-300">
-                      <li>Java & Python</li>
-                      <li>JavaScript & HTML/CSS</li>
-                      <li>SQL</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-bold text-[#01c953] mb-4">Tools & Practices</h3>
-                    <ul className="space-y-2 text-lg text-slate-600 dark:text-slate-300">
-                      <li>GitHub & Git Bash</li>
-                      <li>AWS & Next.js</li>
-                      <li>Agile & JUnit</li>
-                    </ul>
+                <div className="pt-8">
+                  <h3 className="text-2xl font-bold text-[#01c953] mb-6 text-center">Tech Stack</h3>
+                  <div className="flex flex-wrap justify-center items-center gap-6">
+                    <img src="/brand_icons/java.webp" alt="Java" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
+                    <img src="/brand_icons/279-2791029_python-icon-python-logo.png" alt="Python" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
+                    <img src="/brand_icons/javascript-logo-javascript-icon-transparent-free-png.webp" alt="JavaScript" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
+                    <img src="/brand_icons/sql-database-icon-logo-design-ui-or-ux-app-png.png" alt="SQL" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
+                    <img src="/brand_icons/Amazon_Web_Services_Logo.svg.png" alt="AWS" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
+                    <img src="/brand_icons/next.js-logo_brandlogos.net_zeccw.png" alt="Next.js" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
                   </div>
                 </div>
               </div>
