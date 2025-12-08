@@ -57,7 +57,7 @@ export default function Home() {
           </div>
           <div className="flex flex-wrap justify-center items-center gap-6 mt-8">
             <img src="/brand_icons/java.webp" alt="Java" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
-            <img src="/brand_icons/279-2791029_python-icon-python-logo.png" alt="Python" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
+            <img src="/brand_icons/Python-Transparent-Background.png" alt="Python" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
             <img src="/brand_icons/javascript-logo-javascript-icon-transparent-free-png.webp" alt="JavaScript" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
             <img src="/brand_icons/sql-database-icon-logo-design-ui-or-ux-app-png.png" alt="SQL" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
             <img src="/brand_icons/Amazon_Web_Services_Logo.svg.png" alt="AWS" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
