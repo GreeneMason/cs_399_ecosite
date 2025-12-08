@@ -26,12 +26,12 @@ export default function Home() {
       <section className="min-h-screen flex items-center justify-center px-4 pt-20">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tight mb-8">
-            <span className="bg-gradient-to-r from-[#01c953] via-[#34d376] to-[#69df9b] bg-clip-text text-transparent [-webkit-text-stroke:1px_#000] dark:[-webkit-text-stroke:1px_#fff] [text-stroke:1px_#000] dark:[text-stroke:1px_#fff]">
+            <span className="bg-gradient-to-r from-[#01c953] via-[#34d376] to-[#69df9b] bg-clip-text text-transparent drop-shadow-[3px_3px_0px_rgba(0,0,0,0.3)] dark:drop-shadow-none">
               Full-Stack
             </span>
           </h1>
           <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-8">
-            <span className="bg-gradient-to-r from-[#01c953] to-[#69df9b] bg-clip-text text-transparent [-webkit-text-stroke:1px_#000] dark:[-webkit-text-stroke:1px_#fff] [text-stroke:1px_#000] dark:[text-stroke:1px_#fff]">
+            <span className="bg-gradient-to-r from-[#01c953] to-[#69df9b] bg-clip-text text-transparent drop-shadow-[2px_2px_0px_rgba(0,0,0,0.3)] dark:drop-shadow-none">
               Developer
             </span>
           </h2>
