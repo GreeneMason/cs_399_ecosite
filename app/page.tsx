@@ -95,7 +95,7 @@ export default function Home() {
       <section className="min-h-screen flex items-center px-4 py-20">
         <div className="container mx-auto">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-5xl md:text-6xl font-bold text-center mb-16 bg-gradient-to-r from-[#01c953] to-[#69df9b] bg-clip-text text-transparent">Featured Projects</h2>
+            <h2 className="text-5xl md:text-6xl font-bold text-center mb-20 bg-gradient-to-r from-[#01c953] to-[#69df9b] bg-clip-text text-transparent pb-2">Featured Projects</h2>
             <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
               <div className="bg-white dark:bg-slate-800 rounded-2xl border border-[#01c953]/20 shadow-xl hover:shadow-2xl transition-all duration-300 hover:border-[#69df9b]/40 hover:transform hover:scale-105">
                 <div className="p-8">
