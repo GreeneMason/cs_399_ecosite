@@ -56,12 +56,12 @@ export default function Home() {
             </a>
           </div>
           <div className="flex flex-wrap justify-center items-center gap-6 mt-8">
-            <img src="/brand_icons/java.webp" alt="Java" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
-            <img src="/brand_icons/Python-Transparent-Background.png" alt="Python" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
-            <img src="/brand_icons/javascript-logo-javascript-icon-transparent-free-png.webp" alt="JavaScript" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
-            <img src="/brand_icons/sql-database-icon-logo-design-ui-or-ux-app-png.png" alt="SQL" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
-            <img src="/brand_icons/Amazon_Web_Services_Logo.svg.png" alt="AWS" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
-            <img src="/brand_icons/next.js-logo_brandlogos.net_zeccw.png" alt="Next.js" className="h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
+            <img src="/brand_icons/java.webp" alt="Java" className="h-16 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
+            <img src="/brand_icons/Python-Transparent-Background.png" alt="Python" className="h-16 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
+            <img src="/brand_icons/javascript-logo-javascript-icon-transparent-free-png.webp" alt="JavaScript" className="h-16 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
+            <img src="/brand_icons/sql-database-icon-logo-design-ui-or-ux-app-png.png" alt="SQL" className="h-16 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
+            <img src="/brand_icons/Amazon_Web_Services_Logo.svg.png" alt="AWS" className="h-16 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
+            <img src="/brand_icons/next.js-logo_brandlogos.net_zeccw.png" alt="Next.js" className="h-16 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
           </div>
         </div>
       </section>
@@ -95,7 +95,7 @@ export default function Home() {
       <section className="min-h-screen flex items-center px-4 py-20">
         <div className="container mx-auto">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-5xl md:text-6xl font-bold text-center mb-20 bg-gradient-to-r from-[#01c953] to-[#69df9b] bg-clip-text text-transparent pb-2">Featured Projects</h2>
+            <h2 className="text-5xl md:text-6xl font-bold text-center mb-24 bg-gradient-to-r from-[#01c953] to-[#69df9b] bg-clip-text text-transparent pb-4">Featured Projects</h2>
             <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
               <div className="bg-white dark:bg-slate-800 rounded-2xl border border-[#01c953]/20 shadow-xl hover:shadow-2xl transition-all duration-300 hover:border-[#69df9b]/40 hover:transform hover:scale-105">
                 <div className="p-8">
