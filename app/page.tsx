@@ -72,10 +72,10 @@ export default function Home() {
           <div className="max-w-6xl mx-auto">
             <h2 className="text-5xl md:text-6xl font-bold text-center mb-16 bg-gradient-to-r from-[#01c953] to-[#69df9b] bg-clip-text text-transparent">About Me</h2>
             <div className="grid lg:grid-cols-2 gap-16 items-center">
-              <div className="space-y-8">
+              <div className="space-y-8 max-w-[90%]">
                 <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-300 leading-relaxed">
-                  I'm a Computer Science undergraduate with strong skills in Java, data structures, databases, and software development. 
-                  Experienced in building efficient, user-centered applications and collaborating in Agile environments.
+                  I'm a Computer Science undergraduate at <a href="https://www.olympic.edu" target="_blank" rel="noopener noreferrer" className="text-[#01c953] hover:underline">Olympic College</a> with strong skills in Java, databases, data structures, and software development. 
+                  Experienced in building efficient, user-centered applications solving real world problems and collaborating in Agile environments.
                 </p>
                 <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-300 leading-relaxed">
                   Currently seeking a software development internship to apply strong problem-solving and coding skills in a fast-paced tech environment.
@@ -96,7 +96,26 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-5xl md:text-6xl font-bold text-center mb-24 bg-gradient-to-r from-[#01c953] to-[#69df9b] bg-clip-text text-transparent pb-4">Featured Projects</h2>
-            <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white dark:bg-slate-800 rounded-2xl border border-[#01c953]/20 shadow-xl hover:shadow-2xl transition-all duration-300 hover:border-[#69df9b]/40 hover:transform hover:scale-105">
+                <div className="p-8">
+                  <h3 className="text-2xl font-semibold mb-4 text-[#01c953]">Tax Transparency Tool</h3>
+                  <p className="text-slate-600 dark:text-slate-300 mb-6 text-lg">
+                    A tool to promote tax transparency by making tax data more accessible and understandable for users.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-6">
+                    <span className="bg-[#69df9b] text-white px-3 py-1 rounded-full text-sm">Java</span>
+                    <span className="bg-[#01c953] text-white px-3 py-1 rounded-full text-sm">Python</span>
+                    <span className="bg-[#69df9b] text-white px-3 py-1 rounded-full text-sm">Data Analysis</span>
+                    <span className="bg-[#484948] text-white px-3 py-1 rounded-full text-sm">GitHub</span>
+                    <span className="bg-[#484948] text-white px-3 py-1 rounded-full text-sm">SQL</span>
+                  </div>
+                  <a href="https://github.com/GreeneMason/tax_transparency_tool" target="_blank" rel="noopener noreferrer" className="block w-full text-center border-2 border-[#01c953] text-[#01c953] hover:bg-[#01c953] hover:text-white py-3 rounded-lg transition-all duration-300 font-semibold">
+                    View Project
+                  </a>
+                </div>
+              </div>
+
               <div className="bg-white dark:bg-slate-800 rounded-2xl border border-[#01c953]/20 shadow-xl hover:shadow-2xl transition-all duration-300 hover:border-[#69df9b]/40 hover:transform hover:scale-105">
                 <div className="p-8">
                   <h3 className="text-2xl font-semibold mb-4 text-[#01c953]">ML UFC Predictor</h3>
