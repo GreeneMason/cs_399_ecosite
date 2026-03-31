@@ -104,11 +104,11 @@ export default function Home() {
                     A tool to promote tax transparency by making tax data more accessible and understandable for users.
                   </p>
                   <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="bg-[#69df9b] text-white px-3 py-1 rounded-full text-sm">Java</span>
-                    <span className="bg-[#01c953] text-white px-3 py-1 rounded-full text-sm">Python</span>
-                    <span className="bg-[#69df9b] text-white px-3 py-1 rounded-full text-sm">Data Analysis</span>
-                    <span className="bg-[#484948] text-white px-3 py-1 rounded-full text-sm">GitHub</span>
-                    <span className="bg-[#484948] text-white px-3 py-1 rounded-full text-sm">SQL</span>
+                    <span className="bg-[#69df9b] text-white dark:text-black px-3 py-1 rounded-full text-sm">Java</span>
+                    <span className="bg-[#01c953] text-white dark:text-black px-3 py-1 rounded-full text-sm">Python</span>
+                    <span className="bg-[#69df9b] text-white dark:text-black px-3 py-1 rounded-full text-sm">Data Analysis</span>
+                    <span className="bg-[#484948] dark:bg-slate-500 text-white dark:text-black px-3 py-1 rounded-full text-sm">GitHub</span>
+                    <span className="bg-[#484948] dark:bg-slate-500 text-white dark:text-black px-3 py-1 rounded-full text-sm">SQL</span>
                   </div>
                   <a href="https://github.com/GreeneMason/tax_transparency_tool" target="_blank" rel="noopener noreferrer" className="block w-full text-center border-2 border-[#01c953] text-[#01c953] hover:bg-[#01c953] hover:text-white py-3 rounded-lg transition-all duration-300 font-semibold">
                     View Project
@@ -123,10 +123,10 @@ export default function Home() {
                     Used Python to create databases from 28 years of UFC events. Trained and evaluated multiple algorithms to identify the best-performing model.
                   </p>
                   <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="bg-[#01c953] text-white px-3 py-1 rounded-full text-sm">Python</span>
-                    <span className="bg-[#69df9b] text-white px-3 py-1 rounded-full text-sm">XGBoost</span>
-                    <span className="bg-[#69df9b] text-white px-3 py-1 rounded-full text-sm">Pandas</span>
-                    <span className="bg-[#484948] text-white px-3 py-1 rounded-full text-sm">SQLite</span>
+                    <span className="bg-[#01c953] text-white dark:text-black px-3 py-1 rounded-full text-sm">Python</span>
+                    <span className="bg-[#69df9b] text-white dark:text-black px-3 py-1 rounded-full text-sm">XGBoost</span>
+                    <span className="bg-[#69df9b] text-white dark:text-black px-3 py-1 rounded-full text-sm">Pandas</span>
+                    <span className="bg-[#484948] dark:bg-slate-500 text-white dark:text-black px-3 py-1 rounded-full text-sm">SQLite</span>
                   </div>
                   <a href="https://github.com/GreeneMason/cs_330" target="_blank" rel="noopener noreferrer" className="block w-full text-center border-2 border-[#01c953] text-[#01c953] hover:bg-[#01c953] hover:text-white py-3 rounded-lg transition-all duration-300 font-semibold">
                     View Project
@@ -141,9 +141,9 @@ export default function Home() {
                     Terminal app to calculate ROI for solar panel installs using AI-generated irradiance data for 150+ WA zipcodes.
                   </p>
                   <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="bg-[#69df9b] text-white px-3 py-1 rounded-full text-sm">Java</span>
-                    <span className="bg-[#484948] text-white px-3 py-1 rounded-full text-sm">GitHub</span>
-                    <span className="bg-[#69df9b] text-white px-3 py-1 rounded-full text-sm">AI Data</span>
+                    <span className="bg-[#69df9b] text-white dark:text-black px-3 py-1 rounded-full text-sm">Java</span>
+                    <span className="bg-[#484948] dark:bg-slate-500 text-white dark:text-black px-3 py-1 rounded-full text-sm">GitHub</span>
+                    <span className="bg-[#69df9b] text-white dark:text-black px-3 py-1 rounded-full text-sm">AI Data</span>
                   </div>
                   <a href="https://github.com/GreeneMason/finals-SolarCalc" target="_blank" rel="noopener noreferrer" className="block w-full text-center border-2 border-[#01c953] text-[#01c953] hover:bg-[#01c953] hover:text-white py-3 rounded-lg transition-all duration-300 font-semibold">
                     View Project
@@ -158,9 +158,9 @@ export default function Home() {
                     Planting scheduler using HashMaps and ArrayLists with O(1) search capability. Optimized for Washington climate.
                   </p>
                   <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="bg-[#69df9b] text-white px-3 py-1 rounded-full text-sm">Java</span>
-                    <span className="bg-[#484948] text-white px-3 py-1 rounded-full text-sm">Data Structures</span>
-                    <span className="bg-[#010101] text-white px-3 py-1 rounded-full text-sm">Algorithms</span>
+                    <span className="bg-[#69df9b] text-white dark:text-black px-3 py-1 rounded-full text-sm">Java</span>
+                    <span className="bg-[#484948] dark:bg-slate-500 text-white dark:text-black px-3 py-1 rounded-full text-sm">Data Structures</span>
+                    <span className="bg-[#484948] dark:bg-slate-500 text-white dark:text-black px-3 py-1 rounded-full text-sm">Algorithms</span>
                   </div>
                   <a 
                     href="https://github.com/cs-olympic/finalcs2-GreeneMason"
