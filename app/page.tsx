@@ -48,7 +48,7 @@ export default function Home() {
               View My Work
             </a>
             <a 
-              href="/resume.pdf"
+              href="/GreeneMASONRESUME.docx%20(1).pdf"
               download="Mason_Greene_Resume.pdf"
               className="border-2 border-[#01c953] text-[#01c953] hover:bg-[#01c953] hover:text-white font-semibold text-xl px-10 py-4 rounded-lg transition-all duration-300"
             >
